@@ -1,6 +1,6 @@
 export class UserService {
   async addUser(name, surname, date) {
-    const users = await fetch("http://localhost:4000/v1/users", {
+    const users = await fetch("http://34.207.146.61:4000/v1/users", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
